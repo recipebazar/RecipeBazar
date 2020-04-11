@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy -repo=https://github.com/recipebazar/RecipeBazar.git"
+    "deploy": "ng deploy -repo=https://github.com/recipebazar/RecipeBazar.git -branch=master"
   },
   "private": true,
   "dependencies": {
