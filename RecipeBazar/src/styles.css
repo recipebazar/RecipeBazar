@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.video iframe{
+  width: 560;
+  max-width: 560;
+  height: 315;
+}
+
+.instruction-img img{
+  width:60%;
+  max-width: 70%;
+  border-radius: 2%;
+}
+
+.recipeImg{
+  width:100%;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .instruction-img img {
+    width:100%;
+    height: auto;
+    border-radius: 2%;
+  }
+  .video iframe{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .recipeBazarlogo{
+    width: 100%;
+    height: auto;
+  }
+}
+
+.masthead {
+  height: 15vh;
+  min-height: 50px;
+  background-color: rgb(236, 235, 235);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* .masthead {
+  height: 15vh;
+  min-height: 50px;
+  background-image: url('assets/img/upma.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
