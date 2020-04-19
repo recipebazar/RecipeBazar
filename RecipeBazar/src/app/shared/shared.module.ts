@@ -1,12 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
 
 @NgModule({
   declarations: [
-    NavbarComponent,
     FooterComponent,
     TopNavBarComponent
   ],
@@ -14,7 +12,6 @@ import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
     BrowserModule
   ],
   exports: [
-    NavbarComponent,
     FooterComponent,
     TopNavBarComponent
   ]

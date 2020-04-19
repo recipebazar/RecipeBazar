@@ -4,15 +4,10 @@ body{
   font-size: 1rem;
 }
 
-.video iframe{
-  width: 560;
-  max-width: 560;
-  height: 315;
-}
 
 .instruction-img img{
-  width:60%;
-  max-width: 70%;
+  width:80%;
+  max-width: 80%;
   border-radius: 2%;
 }
 
@@ -27,11 +22,7 @@ body{
     height: auto;
     border-radius: 2%;
   }
-  .video iframe{
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
+
   .recipeBazarlogo{
     width: 100%;
     height: auto;
@@ -51,11 +42,4 @@ body{
   padding-left: 0;
   padding-right: 0;
 }
-/* .masthead {
-  height: 15vh;
-  min-height: 50px;
-  background-image: url('assets/img/upma.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-} */
+
