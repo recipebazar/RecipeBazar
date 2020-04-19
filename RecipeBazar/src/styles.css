@@ -1,9 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1rem;
+body, p {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
+.recipeCard {
+  background-image: url('assets/img/trianglepattern.png');
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Martel', serif;
+}
+
+
+.brandLogo{
+  width: 20%;
+  height: auto;
+}
 
 .instruction-img img{
   width:80%;
@@ -14,6 +28,10 @@ body{
 .recipeImg{
   width:100%;
   max-width: 100%;
+}
+
+.listspace{
+  padding: 0 15%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -27,12 +45,17 @@ body{
     width: 100%;
     height: auto;
   }
+
+  .brandLogo{
+    width: 40%;
+    height: auto;
+  }
 }
 
 .masthead {
   height: 15vh;
   min-height: 50px;
-  background-color: rgb(236, 235, 235);
+  background-color: rgb(241, 245, 225);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,5 +64,8 @@ body{
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+  background-size:contain;
+  /* width:110%; */
+  background-repeat:no-repeat;
 }
 
