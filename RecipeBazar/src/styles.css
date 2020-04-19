@@ -5,8 +5,15 @@ body, p {
   font-weight: 400;
 }
 
-.recipeCard {
+.recipeCardBody {
   background-image: url('assets/img/trianglepattern.png');
+}
+
+
+.recipeCardHead {
+  background-image: url('assets/img/wheat.png');
+  background-color:transparent;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6{
