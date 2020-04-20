@@ -43,6 +43,7 @@ font-weight: 600;
   width:80%;
   max-width: 80%;
   border-radius: 2%;
+  margin-left: 2%;
 }
 
 .recipeImg{
@@ -69,6 +70,18 @@ font-weight: 600;
   .brandLogo{
     width: 40%;
     height: auto;
+  }
+}
+
+
+@media only screen and (min-width: 1920px) {
+  .brandLogo{
+    width: 50%;
+    height: auto;
+  }
+
+  body, p {
+    font-size: 2rem;
   }
 }
 
