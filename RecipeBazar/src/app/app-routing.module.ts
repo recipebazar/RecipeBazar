@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UpmaComponent } from './upma/upma.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { BhindifryComponent } from './bhindifry/bhindifry.component';
 
 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'upma',
     component: UpmaComponent
+  },
+  {
+    path: 'bhindifry',
+    component: BhindifryComponent
   },
 ];
 

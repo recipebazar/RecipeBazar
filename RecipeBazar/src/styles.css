@@ -5,10 +5,18 @@ body, p {
   font-weight: 400;
 }
 
+.anchorDefault{
+  color: white;
+  text-decoration: none;
+
+}
 .recipeCardBody {
   background-image: url('assets/img/trianglepattern.png');
 }
 
+.navSocialMediaSize{
+  font-size: 2rem;
+}
 
 .recipeCardHead {
   background-image: url('assets/img/wheat.png');
@@ -21,10 +29,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .prepButtons button{
-background-image: url('assets/img/wheat.png');
 border: none;
-font-weight: 600;
+font-weight: 400;
+margin:1%;
+padding: 1%;
+/* background-image: url('assets/img/prism.png'); */
+color: white;
+background-color: rgb(128, 35, 12);
 }
+
+.prepButtons button:hover{
+  background-color: rgb(128, 35, 12);
+  }
 
 .instacolor{
   color: transparent;
@@ -32,6 +48,10 @@ font-weight: 600;
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.recipeSocialMediaSize {
+  font-size: 2.5rem;
 }
 
 .brandLogo{
@@ -55,6 +75,23 @@ font-weight: 600;
   padding: 0 15%;
 }
 
+.masthead {
+  height: 120vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  background-size:contain;
+  /* width:110%; */
+  background-repeat:no-repeat;
+}
+
 @media only screen and (max-width: 720px) {
   .instruction-img img {
     width:100%;
@@ -71,6 +108,11 @@ font-weight: 600;
     width: 40%;
     height: auto;
   }
+
+  .recipeSocialMediaSize {
+    font-size: 1.5 rem;
+  }
+
 }
 
 
@@ -85,20 +127,4 @@ font-weight: 600;
   }
 }
 
-.masthead {
-  height: 15vh;
-  min-height: 50px;
-  background-color: rgb(241, 245, 225);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-  background-size:contain;
-  /* width:110%; */
-  background-repeat:no-repeat;
-}
 
