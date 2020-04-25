@@ -1,0 +1,27 @@
+.recipeHeading a{
+  color: black;
+  text-decoration: none;
+}
+
+// .homgRecipeImg{
+//   margin: 1%;
+// }
+
+.homgRecipeImg img{
+  border-radius: 2%;
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 720px) {
+  .homgRecipeImg{
+    margin: 5%;
+  }
+  .homgRecipeImg img {
+    width:100%;
+    height: auto;
+    border-radius: 2%;
+    background-size: cover;
+  }
+}

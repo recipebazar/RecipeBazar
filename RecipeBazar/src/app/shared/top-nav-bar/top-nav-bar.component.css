@@ -3,6 +3,10 @@
   /* background-image: linear-gradient(to right, white, rgb(196, 7, 117), white); */
 }
 
+.navSocialMediaSize{
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 970px) {
 
 }
