@@ -35,8 +35,9 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .recipeCardHead {
-  background-image: url('assets/img/wheat.png');
-  background-color:transparent;
+  padding: 3%;
+  background-image: url('assets/img/dark-paths.png');
+  /* background-color:#14213d; */
   color: white;
 }
 
@@ -47,15 +48,11 @@ margin:1%;
 padding: 1%;
 /* background-image: url('assets/img/prism.png'); */
 color: white;
-background-color: rgb(128, 35, 12);
+background-color:#14213d;
 }
 
 .prepButtons button:hover{
-  background-color: rgb(128, 35, 12);
-  }
-
-.recipeSocialMediaSize {
-  font-size: 2.5rem;
+  background-color: #14213d;
 }
 
 .instruction-img img{
@@ -131,11 +128,6 @@ background-color: rgb(128, 35, 12);
     width: 40%;
     height: auto;
   }
-
-  .recipeSocialMediaSize {
-    font-size: 1.5 rem;
-  }
-
 }
 
 
