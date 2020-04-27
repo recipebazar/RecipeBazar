@@ -30,6 +30,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Recipe template styles */
+.recipe{
+  padding-top: 5%;
+}
+
+.strikethrough:checked + span{
+  text-decoration:line-through
+}
+
 .recipeCardBody {
   background-image: url('assets/img/trianglepattern.png');
 }
@@ -46,9 +54,9 @@ border: none;
 font-weight: 400;
 margin:1%;
 padding: 1%;
-/* background-image: url('assets/img/prism.png'); */
+background-image: url('assets/img/dark-paths.png');
 color: white;
-background-color:#14213d;
+/* background-color:#14213d; */
 }
 
 .prepButtons button:hover{
